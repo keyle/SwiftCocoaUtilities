@@ -11,4 +11,4 @@ I will add them as I go, note that I'm still relatively new to Swift. References
 Contributions welcome.
 
 - UserNotif - display growl-like notification right now, in one line
-- Messages - pass messages around the app in a register/broadcast notifications style, with payload
+- Messages - pass messages around the app in a register/broadcast global BUS style (oldschool) system, with payload
