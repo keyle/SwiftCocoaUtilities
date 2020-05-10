@@ -5,6 +5,7 @@
 //
 //  Based on https://cocoacasts.com/local-notifications-with-the-user-notifications-framework/
 //
+//  UserNotif.makeNotification(...)
 
 import UserNotifications
 
@@ -53,14 +54,10 @@ public class UserNotif {
             }
         }
 
-        
-        // Add Trigger
         let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 0.05, repeats: false)
         
-        // Create Notification Request
         let notificationRequest = UNNotificationRequest(identifier: NSUUID().uuidString, content: notificationContent, trigger: notificationTrigger)
         
-        // Add Request to User Notification Center
         UNUserNotificationCenter.current().add(notificationRequest) { (error) in
             if let error = error {
                 print("Unable to Add Notification Request (\(error), \(error.localizedDescription))")
@@ -77,6 +74,5 @@ public class UserNotif {
             completionHandler(success)
         }
     }
-    
     
 }
