@@ -12,3 +12,4 @@ Contributions welcome.
 
 - UserNotif - display growl-like notification right now, in one line
 - Messages - pass messages around the app in a register/broadcast global BUS style (oldschool) system, with payload
+- DropView - extends NSView to handle files of certain extensions to be dropped in the application window
