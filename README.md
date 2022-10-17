@@ -1,5 +1,7 @@
 ### SwiftCocoaUtilities
 
+## NOTE: this is an archive, all of this is now out of date.
+
 A bunch of classes I made and use for my own sanity..
 
 They solve my own problems to develop apps quickly.
